@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
+        <title>安装 腾讯面典</title>
+        <style type="text/css">
+                body {
+                        background: repeat #c5ccd4;
+                        font-family: Helvetica, arial, sans-serif;
+                }
+                .congrats {
+                        font-size: 16pt;
+                        padding: 6px;
+                        text-align: center;
+                }
+                .step {
+                        background: white;
+                        border: 1px #ccc solid;
+                        border-radius: 14px;
+                        padding: 4px 10px;
+                        margin: 10px 0;
+                }
+                .instructions {
+                        font-size: 10pt;
+                }
+                .arrow {
+                        font-size: 15pt;
+                }
+                table {
+                        width: 100%;
+                }
+		img { width: 100%; -ms-interpolation-mode: bicubic;}
+        </style>
+</head>
+<body>
+ 
+<div class="congrats">腾讯面典</div>
+<div class="step">
+        <table><tr>
+                <td class="instructions">安装 <br/>腾讯面典</td>
+                <td class="imagelink">
+                        <a href="https://duobeigit.github.io/android/miandian/tengxun/app-tengxun-release.apk">
+							点击安装</a>
+                </td>
+        </tr></table>
+</div>
+<div class="content_wrap" style="display:none">
+
+<img src="http://android-dev.qiniudn.com/weixin-help-500-477-20140327.jpg"/>
+</div>
+<script src="http://static1.duobei.com/javascript/jquery-1.7.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$(function(){
+var ua = navigator.userAgent.toLowerCase();
+if(/micromessenger/.test(ua)){
+					$('.content_wrap').show();
+				}
+});
+</script>
+</body>
+</html>
